@@ -9,3 +9,7 @@
 <h2>Workflow</h2>
 
 <h2>Tools/Technologies Used</h2>
+
+ - <b>R</b><br />
+ - <b>Tableau</b><br />
+ - <b>Excel</b><br />
