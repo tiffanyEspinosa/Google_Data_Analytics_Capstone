@@ -82,14 +82,14 @@ total_trips$day <- format(as.Date(total_trips$date), "%d")
 total_trips$year <- format(as.Date(total_trips$date), "%Y")
 total_trips$day_of_week2 <- format(as.Date(total_trips$date), "%A")
 
-# As part of the Google Data Analytics roadmap, it had me add in the 
+# As part of the Google Data Analytics roadmap, it had me add the 
 # day_of_week column for each file using Excel. The output is a number which 
-# corresponds to a day of the week, however, I prefer the R format of using the 
+# corresponds to a day of the week; however, I prefer the R format of using the 
 # actual day. So I will be deleting the original day_of_week column and 
-# renaming the day_of_week2 to day_of_week.I also removed the original 
-# ride_length because in Excel I formatted the data as time only in the 
+# renaming the day_of_week2 to day_of_week. I also removed the original 
+# ride_length because, in Excel, I formatted the data as time only in the 
 # HH:MM:SS format; however, when I uploaded it in R, it showed the difference 
-# in date and time (for example: it showed 1899-12-31 00:02:57 instead of 
+# in date and time (for example, it showed 1899-12-31 00:02:57 instead of 
 # 00:02:57 because it subtracted the date as well as the time).
 
 
